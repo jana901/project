@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <script>
+            var jana=0;
+            var name="jana";
+            var lastname="mahfoudh";
+            var fullname=name.concat(lastname);
+            console.log(fullname);
+            var lenghthoffullname=fullname.length;
+            console.log(lenghthoffullname);
+            var sentence="hi how are you";
+            console.log(sentence);
+            var news=sentence.replace("how","who");
+            console.log(news);
+            var lowercases=news.toUpperCase();
+            console.log(lowercases);
+            var sr=Math.sqrt(45);
+            console.log(sr.toFixed(2));
+            var pnumber=Math.pow(4,2);
+           console.log(pnumber);
+
+           var fruits=["apple","banana","orange","strawberry"];
+           console.log(fruits);
+           console.log(fruits[1]);
+           var lenghtofarray=fruits.length;
+           console.log(lenghtofarray);
+           for(i=0;i<fruits.length;i++){
+               console.log(fruits[i]);
+
+           }
+           fruits.push("blueberry");
+           fruits.sort();
+           console.log(fruits);
+           fruits.reverse();
+           console.log(fruits);
+           var numbers=[1,2,3,4,5,6,7,8,9,10];
+           var maxnumber=Math.max.apply(Math,numbers);
+           console.log(maxnumber);
+           var minnumber=Math.min.apply(Math,numbers);
+           console.log(minnumber);
+        </script>
+    </head>
+    <body>
+        <p>hi my name is jana</p>
+        <p id="display">fruit</p>
+    </body>
+</html>
